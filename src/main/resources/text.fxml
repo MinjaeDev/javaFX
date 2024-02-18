@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--뷰 설정. 어떤 컨트롤러를 통해 보여줄건지 설정-->
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ming.myProject.javaFx.TextController">
+   <children>
+      <ToggleButton fx:id="toggle" layoutX="244.0" layoutY="136.0" mnemonicParsing="false" onAction="#toggleClick" text="ToggleButton" />
+      <TextField fx:id="leftText" layoutX="82.0" layoutY="74.0" />
+      <TextField fx:id="rightText" layoutX="356.0" layoutY="74.0" />
+      <Text fx:id="result" layoutX="241.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="118.474609375" />
+   </children>
+</AnchorPane>
